@@ -1,18 +1,23 @@
 {
   "name": "pet-shop",
   "version": "1.0.0",
+  "homepage":"https://bianca-c-melo.github.io/petshop-ethereum/",
   "description": "",
   "main": "truffle.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "predeploy": "cd app && npm run build",
+    "deploy": "gh-pages",
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "lite-server": "^2.6.1"
+    
   }
 }
